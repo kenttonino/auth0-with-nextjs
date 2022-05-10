@@ -62,3 +62,54 @@ Auth0
     form of Roles & Permission. You can then read this data
     from a frontend or backend environment with SDK (API) for
     every virtual runtime and Rest API for everything else. 
+
+
+Auth0 Setup
+-----------
+  Website: https://auth0.com
+
+  Tenants
+    - You need to create it to get started.
+    - Basically a grouping of the applications.
+    - To create go to: Applications -> Create Application.
+      - There are 4 types available applications: 
+        Native: 
+          > Mobile, Desktop, CLI, and smart device apps running natively.
+            (e.g. i0S, Electron, Apple TV Apps).
+
+        Singe Page Web Applications:
+          > A JavaScript front-end app that uses an API. (e.g. Angular, 
+            React, and Vue).
+        
+        Regular Web Applications:
+          > Traditional web app using redirects. (Node.js, Express, ASP.NET,
+            Java, PHP).
+        
+        Machine to Machine Applications:
+          > CLIs, daemons or services running on your backend. (e.g. Shell script).
+
+  Settings Definition:
+    Domain: dev-fbmjtrqh.us.auth0.com
+      Tenant: dev-fbmjtrqh
+      Geography: us
+
+    Client ID
+      - A unique identifier for your application.
+
+  .env.local
+    AUTH0_SECRET
+      > You can set this to a generated string with openssl.
+      > This is used to sign cookies.
+    
+    AUTH0_BASE_URL
+      > The url of the app.
+
+    AUTH0_ISSUER_BASE_URL
+      > Is the domain in the settings of Auth0 dashboard.
+    
+    AUTH0_CLIENT_ID
+      > Client ID Of the app. 
+
+    AUTH0_CLIENT_SECRET
+      > We were able to have this because Nextjs have
+        server side aspects.
