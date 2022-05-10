@@ -113,3 +113,8 @@ Auth0 Setup
     AUTH0_CLIENT_SECRET
       > We were able to have this because Nextjs have
         server side aspects.
+
+  auth0-nextjs-login/pages/api/auth/[...auth0].js
+    - All the configuration we need for sdk itself to generate
+      api endpoints for login, logout, callback, and profile
+      information route.
