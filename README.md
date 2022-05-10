@@ -1,4 +1,7 @@
-# Technology Stack
+## Description
+- This is only a guide for future Auth0 based projects with NextJS framework.
+
+## Technology Stack
 - ReactJS
 - NextJS
 - Auth0
