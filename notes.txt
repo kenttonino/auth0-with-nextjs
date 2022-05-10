@@ -1,0 +1,64 @@
+Authentication vs. Authorization
+--------------------------------
+  Authentication
+    - The process of verifying who someone is.
+
+  Authorization
+    - The process of verifying what specific applications, files,
+      files, and data a user has access to.
+
+
+Auth0
+-----
+  - A user authentication and authorization platform that
+    serves as the front door for an application.
+
+  Before you can use your app securely:
+    - We need to prove their identity.
+      - Common way, email password authentication.
+        - Requires an interface from the frontend to collect
+          the password then pass it to a server and database
+          to store it on the backend for future use.
+        - Your frontend needs to looks good and backend needs
+          to become secured and reliable.
+  
+  - Auth0 is a universal solution that can handle the process
+    above.
+
+  Auth0 provides:
+    - Polish login experience, that you can use for web or mobile app.
+    - Also provides infrastructure to store the information securely.
+      - GDPR Compliant.
+      - Gold CSA Star Certification
+      - HIPAA Compliant
+      - ISO27018 Certification
+      - ISO27001 Certification
+      - SOC 2 Type II Certification
+      - PCI DSS Certification
+    - Its like a universal translator that sits in between your
+      frontend, backend, and other third party services to
+      manage the identiy of the users.
+
+  Auth0 supports all this authentication:
+    - Can be used if user want to login with a social providers using
+      an OpenID connect standard.
+    - Can be used like an Multi-Factor Authentication.
+    - Can be used as well for biometrics authentication.
+  
+  Auth0 flow can be customized with the following:
+    - Login
+    - Machine to Machine
+    - Pre-User Registration
+    - Post-User Registration
+    - Post Change Password
+    - Send Phone Message
+
+  - After sign-up each user is assigne an UID and the record
+    can be managed from Auth0 dashboard. You can also check
+    the login history of the devices or block a malicious
+    user.
+  
+  - You can also define customer authorization logic in the
+    form of Roles & Permission. You can then read this data
+    from a frontend or backend environment with SDK (API) for
+    every virtual runtime and Rest API for everything else. 
